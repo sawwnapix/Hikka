@@ -1,4 +1,4 @@
-#meta developer:@angellmodules
+#meta developer: @angellmodules
 
 import asyncio
 from telethon import events
