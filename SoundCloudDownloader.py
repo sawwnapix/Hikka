@@ -28,3 +28,6 @@ class SoundCloudLoaderMod(loader.Module):
             if event.media and isinstance(event.media, MessageMediaDocument):
                 await self._client.send_file(chat_id, event.media, caption="")
                 self._client.remove_event_handler(handler, events.NewMessage(from_users="@scload_bot"))
+
+
+#made by @sawwnapix
