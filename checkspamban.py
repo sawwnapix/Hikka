@@ -4,7 +4,8 @@ from telethon import events
 import asyncio
 
 @loader.tds
-class checkban(loader.Module):
+class checkbanmod(loader.Module):
+    """check account status"""
     strings = {"name": "Checkban"}
 
     async def client_ready(self, client, db):
