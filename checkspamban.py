@@ -5,7 +5,7 @@ import asyncio
 
 @loader.tds
 class checkbanmod(loader.Module):
-    """check account status"""
+    """Check account status"""
     strings = {"name": "Checkban"}
 
     async def client_ready(self, client, db):
@@ -36,3 +36,6 @@ class checkbanmod(loader.Module):
 
         except Exception as e:
             await message.edit(f"<b>ошибка.: {str(e)}</b>")
+
+
+#made by @sawwnapix
