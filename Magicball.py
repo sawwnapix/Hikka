@@ -65,3 +65,6 @@ class MagicBallMod(loader.Module):
         """Use .magicball to get a random prediction"""
         prediction = random.choice(self.predictions)
         await message.edit(prediction)
+
+
+#made by @sawwnapix
