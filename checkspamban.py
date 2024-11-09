@@ -12,7 +12,7 @@ class checkban(loader.Module):
 
     async def checkbancmd(self, message):
         """Check account status."""
-        await message.edit("Checking the ban.")
+        await message.edit("Checking the ban...")
 
         await asyncio.sleep(1)
 
