@@ -55,3 +55,5 @@ class AniverseCardBotMod(loader.Module):
         new_nick = args
         await self.client.send_message(chat_id, f"сменить ник {new_nick}")
         await message.edit(f"Nickname changed to {new_nick}<emoji document_id=6039614175917903752>✏️</emoji>.")
+
+#made by @sawwnapix
