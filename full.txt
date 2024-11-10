@@ -1,4 +1,4 @@
-AniverseCard.py
-Magicball.py
-SoundCloudDownloader.py
-checkspamban.py
+AniverseCard
+Magicball
+SoundCloudDownloader
+checkspamban
