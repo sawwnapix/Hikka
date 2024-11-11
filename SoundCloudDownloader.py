@@ -6,9 +6,9 @@ from .. import loader, utils
 from telethon.tl.types import MessageMediaDocument
 
 @loader.tds
-class SoundCloudMod(loader.Module):
+class SoundCloudDownloaderMod(loader.Module):
     """Download music from SoundCloud🫀"""
-    strings = {"name": "SoundCloud"}
+    strings = {"name": "SoundCloudDowloader"}
 
     async def sclcmd(self, message):
         """<link from SoundCloud>"""
