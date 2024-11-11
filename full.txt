@@ -1,4 +1,4 @@
 AniverseCard
-MagicBall
+Magicball
 SoundCloud
 CheckSpamBan
