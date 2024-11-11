@@ -4,9 +4,9 @@ import random
 from .. import loader, utils
 
 @loader.tds
-class MagicBallMod(loader.Module):
+class MagicballMod(loader.Module):
     """Magicball - отвечает случайными предсказаниями"""
-    strings = {"name": "MagicBall"}
+    strings = {"name": "Magicball"}
 
     def __init__(self):
         self.predictions = [
