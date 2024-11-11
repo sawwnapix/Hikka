@@ -6,7 +6,7 @@ from .. import loader, utils
 from telethon.tl.types import MessageMediaDocument
 
 @loader.tds
-class SoundCloudLoaderMod(loader.Module):
+class SoundCloudMod(loader.Module):
     """Download music from SoundCloud🫀"""
     strings = {"name": "SoundCloud"}
 
