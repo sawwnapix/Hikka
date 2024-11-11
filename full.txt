@@ -1,4 +1,4 @@
 AniverseCard
 MagicBall
 SoundCloudDownloader
-checkspamban
+CheckSpamBan
