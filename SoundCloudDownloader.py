@@ -8,7 +8,7 @@ from telethon.tl.types import MessageMediaDocument
 @loader.tds
 class SoundCloudDownloaderMod(loader.Module):
     """Download music from SoundCloud🫀"""
-    strings = {"name": "SoundCloudDowloader"}
+    strings = {"name": "SoundCloudDownloader"}
 
     async def sclcmd(self, message):
         """<link from SoundCloud>"""
