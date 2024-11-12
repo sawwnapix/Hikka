@@ -1,5 +1,5 @@
 AniverseCard
 Magicball
 SoundCloud
-spamban
+SpamBan
 Profilemanager
