@@ -2,3 +2,4 @@ AniverseCard
 Magicball
 SoundCloudDowloader
 CheckSpamBan
+Profilemanager
