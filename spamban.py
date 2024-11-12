@@ -4,9 +4,9 @@ from telethon import events
 import asyncio
 
 @loader.tds
-class spambanmod(loader.Module):
+class SpamBanmod(loader.Module):
     """Check account status"""
-    strings = {"name": "spamban"}
+    strings = {"name": "SpamBan"}
 
     async def client_ready(self, client, db):
         self.client = client
