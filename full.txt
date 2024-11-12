@@ -1,5 +1,5 @@
 AniverseCard
 Magicball
-SoundCloudDowloader
+SoundCloudDownloader
 CheckSpamBan
 Profilemanager
