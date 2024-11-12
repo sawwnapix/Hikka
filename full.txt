@@ -1,5 +1,5 @@
 AniverseCard
 Magicball
 SoundCloudDownloader
-CheckSpamBan
+checkspamban
 Profilemanager
