@@ -3,3 +3,4 @@ Magicball
 SoundCloud
 SpamBan
 Profilemanager
+AngelWeather
