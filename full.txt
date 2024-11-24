@@ -4,3 +4,4 @@ SoundCloud
 SpamBan
 Profilemanager
 AngelWeather
+FakeTyping
