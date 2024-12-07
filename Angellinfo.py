@@ -106,4 +106,16 @@ class UserInfoAngellMod(loader.Module):
             await message.edit("<b>Использование:</b> .cfg <параметр> <значение>\n\n"
                                  "<b>Доступные параметры:</b>\n"
                                  "banner_url — URL баннера")
-                             
+  
+
+
+
+
+
+
+
+
+
+
+
+#made by @sawwnapix                           
