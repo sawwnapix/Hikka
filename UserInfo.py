@@ -8,8 +8,8 @@ from .. import loader, utils
 
 @loader.tds
 class UserInfoAngellMod(loader.Module):
-    """Модуль для получения информации о пользователе!"""
-    strings = {"name": "UserInfo"}
+    """Модуль для получения информации о пользователе с баннером"""
+    strings = {"name": "AngelInfo"}
 
     async def client_ready(self, client, db):
         self.client = client
@@ -19,7 +19,7 @@ class UserInfoAngellMod(loader.Module):
         )
 
     async def uinfocmd(self, message):
-        """<реплай> или <юзернейм>"""
+        """Используйте .uinfo <реплай> или <юзернейм>"""
         args = utils.get_args_raw(message)
         reply = await message.get_reply_message()
 
@@ -104,18 +104,15 @@ class UserInfoAngellMod(loader.Module):
         args = utils.get_args(message)
         if len(args) == 0:
             await message.edit("<b>Использование:</b> .cfg <параметр> <значение>\n\n"
-                                 "<b>Доступные параметры:</b>\n"
-                                 "banner_url — URL баннера")
-  
+                               "<b>Доступные параметры:</b>\n"
+                               "banner_url — URL баннера")
+            return
 
+        param = args[0].lower()
+        value = " ".join(args[1:])
 
-
-
-
-
-
-
-
-
-
-#made by @sawwnapix                            
+        if param == "banner_url":
+            self.config["banner_url"] = value
+            await message.edit(f"<b>URL баннера обновлен:</b> {value}")
+        else:
+            await message.edit("<b>Неизвестный параметр.</b>")
