@@ -9,7 +9,7 @@ from .. import loader, utils
 @loader.tds
 class UserInfoAngellMod(loader.Module):
     """Модуль для получения информации о пользователе!"""
-    strings = {"name": "AngelInfo"}
+    strings = {"name": "UserInfo"}
 
     async def client_ready(self, client, db):
         self.client = client
