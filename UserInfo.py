@@ -116,3 +116,11 @@ class UserInfoAngellMod(loader.Module):
             await message.edit(f"<b>URL баннера обновлен:</b> {value}")
         else:
             await message.edit("<b>Неизвестный параметр.</b>")
+
+
+
+
+
+
+
+#made by @sawwnapix
