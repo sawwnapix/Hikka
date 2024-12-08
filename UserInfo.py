@@ -19,7 +19,7 @@ class UserInfoAngellMod(loader.Module):
         )
 
     async def uinfocmd(self, message):
-        """Используйте .uinfo <реплай> или <юзернейм>"""
+        """<реплай> или <юзернейм>"""
         args = utils.get_args_raw(message)
         reply = await message.get_reply_message()
 
