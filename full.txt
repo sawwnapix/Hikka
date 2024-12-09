@@ -6,4 +6,4 @@ Profilemanager
 AngelWeather
 FakeTyping
 FakeActions 
-AngelInfo 
+UserInfo
