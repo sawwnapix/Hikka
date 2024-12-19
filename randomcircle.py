@@ -52,3 +52,9 @@ class RandomCircleMod(loader.Module):
 
         except Exception as e:
             await message.edit(f"❌ Ошибка: {str(e)}")
+
+
+
+
+
+#made by @sawwnapix
