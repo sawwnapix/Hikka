@@ -8,18 +8,17 @@ from .. import loader, utils
 
 @loader.tds
 class RandomCircleMod(loader.Module):
-    """Модуль для отправки рандомного кружочка"""
+    """Модуль для отправки рандомного мемного кружочка"""
 
     strings = {"name": "RandomCircle"}
 
     async def rccmd(self, message):
-        """Отправляет рандомный мемный кружочек."""
+        """Отправляет рандомный кружочек."""
         channels = ["memeswave", "memkrujki"]
         await message.edit("🔄 Ищу кружочек...")
 
         try:
-           
-          random_channel = random.choice(channels)
+            random_channel = random.choice(channels)
             entity = await message.client.get_entity(f"t.me/{random_channel}")
             peer = InputPeerChannel(entity.id, entity.access_hash)
 
@@ -36,8 +35,7 @@ class RandomCircleMod(loader.Module):
                 )
             )
 
-           
-           circles = [
+            circles = [
                 msg for msg in history.messages if msg.media and msg.media.document.mime_type == "video/mp4"
             ]
 
@@ -45,22 +43,12 @@ class RandomCircleMod(loader.Module):
                 await message.edit("❌ Не удалось найти кружочки.")
                 return
 
-          random_circle = random.choice(circles)
+            random_circle = random.choice(circles)
 
-          await message.client.send_message(
+            await message.client.send_message(
                 message.chat_id, file=random_circle.media.document, message="🎥 Рандомный кружочек"
             )
             await message.delete()
 
         except Exception as e:
             await message.edit(f"❌ Ошибка: {str(e)}")
-
-
-
-
-
-
-
-
-
-#made by @sawwnapix
