@@ -8,3 +8,4 @@ FakeTyping
 FakeActions 
 UserInfo
 randomcircle
+ASCIIArt
