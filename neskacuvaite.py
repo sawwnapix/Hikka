@@ -1,5 +1,3 @@
-# meta developer: @angellmodules
-
 from telethon.tl.functions.channels import JoinChannelRequest
 from .. import loader
 
