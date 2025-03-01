@@ -9,3 +9,4 @@ FakeActions
 UserInfo
 randomcircle
 ASCIIArt
+MusicLoader
